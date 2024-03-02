@@ -1,2 +1,2 @@
 # layout-pinterest
-O projeto de layout do Pinterest apresenta uma grade de imagens em estilo Pinterest, utilizando o JavaScript para a funcionalidade de pesquisa por tema, assim sendo uma experiência de pesquisa dinâmica e personalizada.
+O projeto de layout do Pinterest apresenta uma grade de imagens organizadas em estilo Pinterest, enquanto o JavaScript adiciona funcionalidade de pesquisa por tema. Onde o usuário pode  inserir um tema na barra de pesquisa, e o JavaScript filtra as imagens com base nos valores do atributo "alt" relacionados ao tema inserido. Os atributos "alt" correspondem ao tema pesquisado são mantidas visíveis, enquanto as outras imagens são ocultadas, assim sendo uma experiência de pesquisa dinâmica e personalizada.
