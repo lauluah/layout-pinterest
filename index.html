@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout estilo Pinterest</title>
+<style>
+        body {
+            background: black;
+        }
+
+        .pesquisa {
+            display: fixed;
+            top: 40px;
+            align-items: center;
+            margin-bottom: 50%;
+        }
+
+        .cxbotao {
+            padding: 9px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 400px;
+        }
+
+        nav { 
+            margin-top: 8%;
+            display: flex;
+            gap: 90px;
+            justify-content: center;
+        }
+
+        nav, main {
+            padding: 12px 0;
+        }
+      
+        a span {
+            display: block;
+            width: 50px;
+            height: 1px;
+            background-color: white;
+        }
+
+        a {
+           
+            font-family: sans-serif;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            padding: 15px 1px;
+            height: 1px;
+            top: -68px;
+        }
+
+        a {
+             position: relative; 
+        }
+
+        a span {
+            width: 100%; 
+            height: 2px;
+        }
+
+        div {
+            width: 100%;
+            position: fixed;
+            bottom: -5px; 
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+        }
+
+        img {
+            width: 200px;
+            height: 360px;
+            border-radius: 12%;
+            padding: 22px 100px;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            margin-bottom: 2px;
+        }
+
+        main {
+            columns: 4;
+            width: 90%;
+            margin: -2px 50px;
+            margin-top: -49px;
+            padding: 0px 10px;
+        }
+
+        ion-icon {
+            color: white;
+            font-size: 24px;
+            width: 7%;
+            margin: -1px 7px;
+            padding: 10px 2px;
+        }
+        
+        .pinterest-icon {
+            width: 100%;
+            top: -88%;
+            left: -44%;
+            align-items: center;
+        }
+
+        nav a:hover {
+            border-radius: 10%;
+            width: flex;
+            height: 2mm;
+            align-items: center;
+            color: black;
+            background-color: white;
+        }
+ </style>
+</head>
+<body>
+    <div class="pinterest-icon">
+        <ion-icon name="logo-pinterest" style="font-size: 50px; color:red"></ion-icon>
+    </div>
+    <div class="pesquisa">
+        <input id="cxpesquisa" type="text" class="cxbotao" placeholder="pesquisar"> 
+    </div>
+    <nav>
+        <a href="#">tudo
+        <span></span>
+        </a>   
+        <a href="#">Paisagens</a>
+        <a href="#">Pintura</a>
+        <a href="#">Estudos</a>
+        <a href="#">Carros</a>
+        <a href="#">Comidas</a>
+    </nav>
+
+    <main>
+        <img class="imagem"src="https://i.pinimg.com/564x/22/e7/a5/22e7a56bf370c339666fb0688d3c4e62.jpg" alt="wallpaper">
+        <img class="imagem"src="https://i.pinimg.com/564x/3f/77/38/3f7738321b1c86cd32e3647241eb1566.jpg" alt="estudo">
+        <img class="imagem"src="https://i.pinimg.com/564x/80/73/3f/80733fcedc383bc622017582121e10c6.jpg" alt="paisagem">
+        <img class="imagem"src="https://i.pinimg.com/564x/68/3a/7e/683a7eeba5e6105d82a44dd205490bbf.jpg" alt="paisagem">
+        <img class="imagem"src="https://i.pinimg.com/564x/5a/7c/d3/5a7cd3c340ddd9c160d547208a86c151.jpg" alt="estudo">
+        <img class="imagem"src="https://i.pinimg.com/564x/20/47/74/20477494d16199d9c0b4d01aba6638e3.jpg" alt="pintura">
+        <img class="imagem"src="https://i.pinimg.com/564x/b8/2a/07/b82a07271f43121762e9277fd35aad06.jpg" alt="comida">
+        <img class="imagem"src="https://i.pinimg.com/564x/1c/72/3c/1c723c83d513fcc0d6c2a5bc6ab3a30c.jpg" alt="carro">
+        <img class="imagem"src="https://i.pinimg.com/736x/f3/26/e6/f326e63b3eb7d91a1f319aaf76f12b3d.jpg" alt="carro">
+        <img class="imagem"src="https://i.pinimg.com/564x/ed/94/00/ed9400870f42aaa03a13fd6f270114ec.jpg" alt="wallpaper">
+        <img class="imagem"src="https://i.pinimg.com/564x/bf/6b/19/bf6b19c513e267122f97464806f0c2bf.jpg" alt="comida">
+        <img class="imagem"src="https://i.pinimg.com/564x/d6/e3/a3/d6e3a370ec719cd141e29770add8d38c.jpg" alt="paisagem/wallpaper">
+        <img class="imagem"src="https://i.pinimg.com/564x/7a/fa/dc/7afadc41f35fa34e8bc2fb70de813b24.jpg" alt="paisagem/wallpaper">
+        <img class="imagem"src="https://i.pinimg.com/564x/74/79/9e/74799edd015650c8f353d30cee69b111.jpg" alt="pintura">
+        <img class="imagem"src="https://i.pinimg.com/564x/f9/09/6f/f9096f23dfcf473cb6c64dc6e97d29af.jpg" alt="carros">
+        <img class="imagem"src="https://i.pinimg.com/564x/45/29/46/452946e3c1ca596e778ac0cfbd1d3c77.jpg" alt="estudos">
+        <img class="imagem"src="https://i.pinimg.com/564x/e7/d3/bd/e7d3bd4ed689c6c69bbdaefc3fba98f6.jpg" alt="comida/receita">
+        <img class="imagem"src="https://i.pinimg.com/564x/c2/5d/15/c25d15f3a3c344156eeba93c8ed1223c.jpg" alt="estudos/rotina">
+        <img class="imagem"src="https://i.pinimg.com/564x/46/11/f1/4611f13a9f58f8af190976a61e0ddf86.jpg" alt="carros">
+        <img class="imagem"src="https://i.pinimg.com/564x/97/02/dd/9702dd40577f945749683b3407f8d77e.jpg" alt="comidas">
+        <img class="imagem"src="https://i.pinimg.com/564x/6d/37/0e/6d370e9bc0235f3e165803cb55e9b9cb.jpg" alt="carros">
+        <img class="imagem"src="https://i.pinimg.com/564x/83/74/19/837419817e651fb0be43ae20ccd4e230.jpg" alt="wallpaper/paisagem">
+        <img class="imagem"src="https://i.pinimg.com/564x/25/5b/08/255b088a8458ad022198609462e11f3c.jpg" alt="paisagem/wallpaper">
+        <img class="imagem"src="https://i.pinimg.com/564x/86/d6/05/86d60555fd77eeb2a532b3f0aa589f95.jpg" alt="comida/receita">
+    </main>
+    
+    <div class="ion-container">
+        <ion-icon name="home"></ion-icon>
+        <ion-icon name="search"></ion-icon>
+        <ion-icon name="add"></ion-icon>
+        <ion-icon name="chatbubble-ellipses"></ion-icon>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
